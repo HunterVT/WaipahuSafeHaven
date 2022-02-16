@@ -1,0 +1,17 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:  hidden;
+  background-color:  #A78A7F;
+}
+
+.list2 {
+  display: block;
+  float:  center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;;
+}
+
