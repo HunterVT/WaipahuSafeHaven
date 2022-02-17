@@ -25,16 +25,54 @@ nav ul li:hover {
 }
 
 .section2 {
-  border:  3px solid #fff;
+  /*border:  3px solid #fff;
   display:  inline-block;
   padding:  20px;
+  **/
+  
+  /*-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 0px;
+  -webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+  -moz-column-rule: 1px solid rgba(28,110,164,0.5);
+  column-rule: 1px solid rgba(28,110,164,0.5);
+  align-items: center;
+  text-align: center;
+  **/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 700px;
 }
 
-.section2-child {
-  float:  left;
-  width:  50%;
-  padding:  20px;
-  border:  2px solid red;
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+
+  text-align: center;
+}
+
+.haven-text {
+  padding-top: 330px;
+  text-align: center;
+}
+
+.haven-text h1 {
+  font-size: 75px;
+}
+
+.logo-column img {
+  padding-top: 100px;
+}
+
+.section3 {
+  text-align: center;
 }
 
 .section4 {
@@ -43,8 +81,18 @@ nav ul li:hover {
 
 #circleImage {
   border-radius: 50%;
-  width:  128px;
-  height:  128px;
+  width:  512px;
+  height:  512px;
+}
+
+.missionImage {
+  border-radius: 50%;
+  width: 420px;
+  height: 420px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .socialmedia {
@@ -52,5 +100,18 @@ nav ul li:hover {
   height:  128px;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top:  40px;
+  padding-top:  15px;
 }
+
+/**#demoparagraph {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 40px;
+-moz-column-gap: 40px;
+column-gap: 40px;
+-webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+-moz-column-rule: 1px solid rgba(28,110,164,0.5);
+column-rule: 1px solid rgba(28,110,164,0.5);
+}
+*/
