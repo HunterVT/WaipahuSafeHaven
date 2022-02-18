@@ -22,13 +22,21 @@ nav ul li {
   transition:  .1s ease-in;
 }
 
+nav a:link {
+  color: white;
+} 
+
+nav a:visited {
+  color:  white;
+}
+
 nav ul li:hover {
   background-color:  white;
 }
 
-nav a.link {
-  color: white;
-} 
+nav ul li:hover a {
+  color: black;
+}
 
 .section2 {
   /*border:  3px solid #fff;
@@ -70,7 +78,7 @@ nav a.link {
 }
 
 .haven-text h1 {
-  font-size: 75px;
+  font-size: 120px;
 }
 
 .logo-column img {
@@ -79,6 +87,13 @@ nav a.link {
 
 .section3 {
   text-align: center;
+}
+.section3 h1 {
+  font-size: 55px;
+}
+.section3 p {
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .section4 {
