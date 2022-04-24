@@ -72,7 +72,7 @@ nav ul li:hover a {
   text-align: center;
 }
 .section3 h1 {
-  font-size: 55px;
+  font-size: 60px;
 }
 .section3 p {
   padding-left: 15%;
@@ -83,10 +83,36 @@ nav ul li:hover a {
   text-align: center;
 }
 
+.section5 {
+  text-align: center;
+  float: left;
+}
+.section5 h1 {
+  font-size: 60px;
+  padding-right: 40%;
+}
+.section5 p {
+  padding-left: 10%;
+  padding-right: 50%;
+  line-height: 40px;
+}
+.section5 figcaption {
+  float: right;
+}
+
 #circleImage {
   border-radius: 50%;
   width:  512px;
   height:  512px;
+}
+
+.founderimage {
+  border-radius: 10%;
+}
+.founderimagetext{
+  float: right;
+  margin-top: 10%;
+  margin-right: 10%;
 }
 
 .missionImage {
@@ -104,5 +130,5 @@ nav ul li:hover a {
   height:  128px;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top:  15px;
+  padding-top:  20px;
 }
