@@ -24,7 +24,7 @@ nav ul li {
 
 nav a:link {
   color: white;
-} 
+}
 
 nav a:visited {
   color:  white;
@@ -100,8 +100,8 @@ nav ul li:hover a {
 }
 
 .socialmedia {
-  width:  128px;
-  height:  128px;
+  width:  80px;
+  height:  80px;
   padding-left: 25px;
   padding-right: 25px;
   padding-top:  15px;
