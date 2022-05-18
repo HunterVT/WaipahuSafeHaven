@@ -138,12 +138,22 @@ nav ul li:hover a {
   font-family: 'Roboto', sans-serif;
 }
 
-#founder-image-container {
-  /*Still needs fixing, this is for image in about us page */
+#about-container {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 50% 50%;
-  text-align: center;
+  grid-template-columns: .5fr 3fr .25fr 1fr .5fr;
+  grid-template-rows: auto;
+
+}
+
+#about-info-container {
+  grid-column: 2/3;
+  grid-row: auto;
+}
+
+#about-image-container {
+  grid-column: 4;
+  grid-row: auto;
+  margin-top: 30px;
 }
 
 .textClass {
@@ -154,6 +164,7 @@ nav ul li:hover a {
   width: 100%;
   margin-top: 70px;
   margin-bottom: 50px;
+
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: auto;
