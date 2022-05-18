@@ -132,3 +132,61 @@ nav ul li:hover a {
   padding-right: 25px;
   padding-top:  20px;
 }
+
+.subText {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-container {
+  display: grid;
+  grid-template-columns: .5fr 3fr .25fr 1fr .5fr;
+  grid-template-rows: auto;
+
+}
+
+#about-info-container {
+  grid-column: 2/3;
+  grid-row: auto;
+}
+
+#about-image-container {
+  grid-column: 4;
+  grid-row: auto;
+  margin-top: 30px;
+}
+
+.textClass {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headerStyle {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto;
+}
+
+.header-text-style {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-container {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: gray;
+
+  /* Position code */
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
