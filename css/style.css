@@ -230,3 +230,34 @@ button {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+/* CSS for side by sided divs */
+.locationleft {
+  text-align-left;
+  padding: 50px 50px;
+}
+
+/* testing left and right divs */
+.outerDiv {
+   background-color: #006699;
+   color: #fff;
+   height: 700px;
+   width: 1400px;
+   margin: 0px auto;
+   padding: 5px;
+  }
+
+.leftDiv {
+   background-color: #efefef;
+   color: #000;
+   height: 700px;
+   width: 48%;
+   float: left;
+   }
+
+.rightDiv {
+   background-color: #efefef;
+   color: #000;
+   height: 700px;
+   width: 48%;
+   float: right;
+   }  
