@@ -3,11 +3,12 @@
   padding:  0px;
   font-family: Big Shoulders Display;
   font-size: 30px;
-
+  zoom: 98%;
 }
 
 nav {
   background-color: #333;
+  zoom: 125%;
 }
 
 nav ul {
@@ -24,6 +25,7 @@ nav ul li {
 
 nav a:link {
   color: white;
+  text-decoration: none;
 }
 
 nav a:visited {
@@ -140,24 +142,25 @@ nav ul li:hover a {
 
 #about-container {
   display: grid;
-  grid-template-columns: .5fr 3fr .25fr 1fr .5fr;
+  grid-template-columns: .5fr 2fr .5fr 1fr .5fr;
   grid-template-rows: auto;
 
 }
 
 #about-info-container {
-  grid-column: 2/3;
+  grid-column: 2;
   grid-row: auto;
 }
 
 #about-image-container {
   grid-column: 4;
   grid-row: auto;
-  margin-top: 30px;
+  margin-top: 200px;
 }
 
 .textClass {
   font-family: 'Roboto', sans-serif;
+  font-size: 28px;
 }
 
 .headerStyle {
